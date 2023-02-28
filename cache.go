@@ -15,7 +15,7 @@ type Item struct {
 	Expiration int64
 }
 
-// Returns true if the item has expired.
+// Returns true if the item has expired. test
 func (item Item) Expired() bool {
 	if item.Expiration == 0 {
 		return false
